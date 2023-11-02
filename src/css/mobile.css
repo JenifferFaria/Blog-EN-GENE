@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #enhypen {
@@ -64,4 +64,3 @@ body {
 .videos-container {
    flex-direction: column;
 }
-
