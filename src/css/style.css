@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.8rem 3%;
+    background-color: white;
+}
+
+.navtext  :hover{
+    border-width: 0px 0px 1px 0px;    
+    border-style:solid;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+    margin-left: 1rem;
+    
+}
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#enhypen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/src/img/principal.jpeg) no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+.headline {
+    margin-top: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+#enhypen-container {
+    width: 100%;
+    background: #DEDEDE;
+    color: #111;
+    justify-items: center;
+    padding: 4%;
+}
+
+#text {
+    text-align: justify;
+    font-size: 1.4em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.membros-container ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    justify-content: center;
+    margin: 0;
+    padding: 2%;
+}
+
+.membros-container li {
+    position: relative;
+    display: inline-block;
+}
+
+.membros-container .informacao {
+    position: absolute;
+    background: #1B2E3C;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+   }
+
+.membros-container {
+    margin-top: 5%;
+}
+
+.membros-container .membros img {
+    width: 140px;
+    height: 190px;
+} 
+
+.titulo {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 5%;
+}
+
+#disc-container {
+    width: 100%;
+    color: #111;
+    justify-items: center;
+}
+
+#carouselExampleIndicators {
+    width: 30%;
+    margin: auto;
+}
+
+#carouselExampleIndicators img {
+    border-radius: 10px;
+}
+
+
+#discografia {
+    width: 100%;
+    justify-items: center;
+    padding: 5%;
+}
+
+.titulo2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 1%;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;
+}
+
+#webtoon #text {
+    margin-top: 3%;
+    font-size: 1.3em;
+}
+
+#webtoon h3 {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#text2 {
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 1.3em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.personagens-container {
+    margin-top: 5%;
+}
+
+#webtoon .btn {
+    position: relative;
+    padding: 10px 50px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    background: #1B2E3C;
+    border: solid 2px;
+    color: #eee;
+    border-radius: 5px;
+}
+
+.personagens-container ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.personagens-container li {
+    position: relative;
+    display: inline-block;
+}
+
+.personagens-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 2px #ffffff;
+} 
+
+.personagens-container .nome {
+    position: absolute;
+    background: #052440;
+    margin-top: 2%;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: solid 2px #ffffff;
+}
+
+#foto-webtoon {
+    margin-top: 5%;
+    height: 80vh;
+    display: flex;
+    background: url(/src/img/Webtoon.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#webtoon {
+    margin-top: 2%;
+    width: 100%;
+    background: #1B2E3C;
+    color: white;
+    justify-items: center;
+    padding: 10px;
+}
+
+.videos-container{
+    display: flex;
+}
+
+.video {
+    background-color: #1B2E3C;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    padding: 1%;
+    position: relative;
+    width: 250px;
+    height: 400px;
+}
+
+.video > frame {
+    position: absolute;
+}
+
+.videos-container ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 2% 5%;
+    gap: 40px;
+}
+
+.videos-container li {
+    position: relative;
+    display: inline-block;
+}
+
+
+#conteudo .videos-container {
+    color: #ffffff;
+    text-align: justify;
+}
+
+#conteudo h3 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#conteudo p {
+    font-size: 0.9em;
+}
+
+#footer {
+    margin-top: 10%;
+    border-top: solid 2px #000000;
+    color: #000000;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+#footer .logo {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#footer li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer ul li {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
