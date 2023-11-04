@@ -9,7 +9,7 @@ html {
     font-family:'Times New Roman', Times, serif;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -25,7 +25,7 @@ body{
     background-color: white;
 }
 
-.navtext :hover{
+.navtext :hover {
     border-width: 0px 0px 1px 0px;    
     border-style:solid;
 }
@@ -190,7 +190,7 @@ body{
     border-radius: 5px;
 }
 
-.personagens-container ul{
+.personagens-container ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -243,7 +243,7 @@ body{
     padding: 10px;
 }
 
-.videos-container{
+.videos-container {
     display: flex;
 }
 
